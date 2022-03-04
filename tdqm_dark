@@ -1,0 +1,10 @@
+# # Set the tqdm text color to white.
+# from IPython.display import HTML, display
+# def set_css_in_cell_output():
+#     display(HTML('''
+#         <style>
+#             .jupyter-widgets {color: #d5d5d5 !important;}
+#             .widget-label {color: #d5d5d5 !important;}
+#         </style>
+#     '''))
+# get_ipython().events.register('pre_run_cell', set_css_in_cell_output)
